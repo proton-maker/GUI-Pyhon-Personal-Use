@@ -1,12 +1,13 @@
+
 # Bosmudasky Simple GUI
 
-Bosmudasky Simple GUI is a user-friendly application designed to simplify common tasks such as adding watermarks, rewriting links, and creating shortcuts. This tool aims to streamline these processes with a straightforward graphical user interface.
+Welcome to Bosmudasky Simple GUI, a powerful yet easy-to-use tool designed to simplify your daily tasks. Whether you're adding watermarks, rewriting links, or creating shortcuts, Bosmudasky has got you covered. This intuitive GUI application streamlines your workflow, making mundane tasks a breeze.
 
 ## Features
 
-- **Add Watermark**: Easily add watermarks to your images.
-- **Rewrite Links / Paste Loader**: Rewrite links or use the paste loader functionality for HTML files.
-- **Create Shortcut**: Create shortcuts with specified URLs and names.
+- **Add Watermark**: Effortlessly add watermarks to your images with just a few clicks.
+- **Rewrite Links / Paste Loader**: Seamlessly rewrite links or utilize the paste loader functionality for your HTML files.
+- **Create Shortcut**: Quickly create shortcuts with specified URLs and names, simplifying your navigation.
 
 ## Screenshots
 
@@ -41,20 +42,34 @@ Bosmudasky Simple GUI is a user-friendly application designed to simplify common
 
 ## Installation
 
-To run this application, you need to have Python installed on your system. Additionally, install the required packages using the following command:
+To get started with Bosmudasky Simple GUI, you'll need to have Python installed on your system. Once you have Python, you can install the required packages using the following command:
 
 ```bash
 pip install -r requirements.txt
 ```
 
+## Scripts
+
+### GUI.py
+
+This script is the heart of the Bosmudasky Simple GUI, bringing the user interface to life and managing user interactions. It seamlessly integrates functionalities from other scripts to provide a smooth and efficient user experience.
+
+### rewark.py
+
+This script is dedicated to managing the watermark addition process. It contains robust functions to apply watermarks to images within the specified input folder, ensuring your images are protected and branded.
+
+### file_operations.py
+
+This script houses essential utility functions for file operations. From browsing directories to selecting files, it handles various file management tasks required by the main GUI and watermark scripts, ensuring smooth operation.
+
 ## Contributing
 
-Feel free to contribute to this project by opening a pull request. For major changes, please open an issue first to discuss what you would like to change.
+We welcome contributions from the community! If you have any ideas, suggestions, or improvements, feel free to open a pull request. For major changes, please open an issue first to discuss what you'd like to modify. Let's collaborate and make Bosmudasky even better together!
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Bosmudasky Simple GUI is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
 
 ## Acknowledgements
 
-Special thanks to all the contributors and the open-source community for their invaluable support and resources.
+A heartfelt thank you to all contributors and the open-source community. Your invaluable support and resources have made this project possible.
