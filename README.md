@@ -1,7 +1,4 @@
-Tentu, berikut adalah `README.md` yang ditulis dengan gaya bahasa yang lebih profesional namun tetap penuh semangat dan emosi, seperti seorang programmer berpengalaman:
-
-```markdown
-# Bosmudasky Simple GUI
+## Bosmudasky Simple GUI
 
 Selamat datang di Bosmudasky Simple GUI! Ini adalah aplikasi Python yang dirancang untuk mempermudah berbagai operasi file dengan antarmuka yang ramah pengguna. Dibangun dengan CustomTkinter, aplikasi ini memungkinkan Anda menambahkan watermark, mengubah tautan, menyalin file dari direktori loader, dan membuat shortcut dengan mudah.
 
