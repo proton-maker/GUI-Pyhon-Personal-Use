@@ -11,7 +11,7 @@ class RewarkGUI(ctk.CTk):
 
         # configure window
         self.title("Bosmudasky Simple GUI")
-        self.geometry("1000x700")
+        self.geometry("1300x700")
         self.script_dir = os.path.dirname(os.path.abspath(__file__))
 
         # configure grid layout (2x2)
