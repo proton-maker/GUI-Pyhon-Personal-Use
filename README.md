@@ -1,95 +1,60 @@
-## Bosmudasky Simple GUI
+# Bosmudasky Simple GUI
 
-Selamat datang di Bosmudasky Simple GUI! Ini adalah aplikasi Python yang dirancang untuk mempermudah berbagai operasi file dengan antarmuka yang ramah pengguna. Dibangun dengan CustomTkinter, aplikasi ini memungkinkan Anda menambahkan watermark, mengubah tautan, menyalin file dari direktori loader, dan membuat shortcut dengan mudah.
+Bosmudasky Simple GUI is a user-friendly application designed to simplify common tasks such as adding watermarks, rewriting links, and creating shortcuts. This tool aims to streamline these processes with a straightforward graphical user interface.
 
-## Fitur
+## Features
 
-- **Add Watermark**: Tambahkan watermark ke gambar-gambar di folder yang Anda pilih.
-- **Rewrite Links**: Ubah tautan di file HTML dalam folder yang Anda pilih.
-- **Paste Loader**: Salin file dari folder loader ke folder tujuan yang Anda pilih.
-- **Create Shortcut**: Buat shortcut dengan URL dan nama yang Anda pilih di folder tujuan.
+- **Add Watermark**: Easily add watermarks to your images.
+- **Rewrite Links / Paste Loader**: Rewrite links or use the paste loader functionality for HTML files.
+- **Create Shortcut**: Create shortcuts with specified URLs and names.
 
-## Requirements
-
-Untuk menjalankan aplikasi ini, Anda memerlukan:
-- Python 3.6 atau lebih baru
-- CustomTkinter
-- Pillow
-- pywin32
-
-## Instalasi
-
-1. Clone repository ini:
-   ```bash
-   git clone https://github.com/username-kamu/bosmudasky-simple-gui.git
-   cd bosmudasky-simple-gui
-   ```
-
-2. Install paket-paket yang dibutuhkan:
-   ```bash
-   pip install customtkinter pillow pywin32
-   ```
-
-## Penggunaan
-
-Jalankan script `GUI.py` untuk memulai aplikasi:
-```bash
-python GUI.py
-```
+## Screenshots
 
 ### Add Watermark
+![Add Watermark](https://github.com/proton-maker/GUI-Pyhon-Personal-Use/blob/main/image/1.png)
 
-1. Pilih opsi "Add Watermark".
-2. Browse ke folder input yang berisi gambar-gambar.
-3. Klik "Process Add Watermark" untuk menambahkan watermark ke semua gambar di folder tersebut.
-
-### Rewrite Links
-
-1. Pilih opsi "Rewrite Links / Paste Loader".
-2. Browse ke folder input yang berisi file HTML untuk mengubah tautan.
-3. Klik "Process Rewrite Links" untuk mengubah tautan di file-file HTML tersebut.
-
-### Paste Loader
-
-1. Pilih opsi "Rewrite Links / Paste Loader".
-2. Path default untuk folder loader sudah diset ke `D:/My-Folder/Bosmuda Store/BM Website/Loader`. Anda dapat menggantinya dengan browse ke folder tujuan lain.
-3. Klik "Process Paste Loader" untuk menyalin semua file dari folder loader ke folder tujuan yang Anda pilih.
+### Rewrite Links / Paste Loader
+![Rewrite Links / Paste Loader](https://github.com/proton-maker/GUI-Pyhon-Personal-Use/blob/main/image/2.png)
 
 ### Create Shortcut
+![Create Shortcut](https://github.com/proton-maker/GUI-Pyhon-Personal-Use/blob/main/image/3.png)
 
-1. Pilih opsi "Create Shortcut".
-2. Browse ke folder tujuan di mana Anda ingin membuat shortcut.
-3. Masukkan URL untuk shortcut.
-4. Masukkan nama untuk shortcut.
-5. Klik "Process Create Shortcut" untuk membuat shortcut di folder tujuan yang Anda pilih.
+## How to Use
 
-## Struktur Proyek
+1. **Add Watermark**:
+   - Select the "Add Watermark" option.
+   - Browse and select the input folder containing your images.
+   - Click "Process Add Watermark" to start adding watermarks.
 
+2. **Rewrite Links / Paste Loader**:
+   - Select the "Rewrite Links / Paste Loader" option.
+   - Browse and select the input folder for rewriting links.
+   - Browse and select the destination folder for the paste loader.
+   - Click "Process Rewrite Links" or "Process Paste Loader" as needed.
+
+3. **Create Shortcut**:
+   - Select the "Create Shortcut" option.
+   - Browse and select the target folder for the shortcut.
+   - Enter the URL for the shortcut.
+   - Enter the name of the shortcut.
+   - Click "Process Create Shortcut" to create the shortcut.
+
+## Installation
+
+To run this application, you need to have Python installed on your system. Additionally, install the required packages using the following command:
+
+```bash
+pip install -r requirements.txt
 ```
-bosmudasky-simple-gui/
-├── Data/
-│   ├── input_images/        # Folder input default untuk gambar
-│   ├── output_jpg/          # Folder output untuk gambar JPG yang sudah di-watermark
-│   ├── output_webp/         # Folder output untuk gambar WebP yang sudah di-watermark
-│   ├── loader/              # Folder yang berisi file-file untuk dipaste
-│   └── write.html           # Contoh file HTML untuk di-rewrite linknya
-├── file_operations.py       # Berisi fungsi-fungsi untuk operasi file
-├── rewark.py                # Berisi fungsi-fungsi untuk watermark dan rewrite link
-└── GUI.py                   # Script utama untuk menjalankan GUI
-```
 
-## Lisensi
+## Contributing
 
-Proyek ini dilisensikan di bawah MIT License. Lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
+Feel free to contribute to this project by opening a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-## Kontribusi
+## License
 
-Kami selalu terbuka untuk kontribusi. Jangan ragu untuk submit issue atau pull request jika Anda ingin berkontribusi pada proyek ini.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Penghargaan
+## Acknowledgements
 
-- [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) untuk framework Tkinter yang modern dan dapat dikustomisasi.
-- [Pillow](https://python-pillow.org/) untuk image processing.
-- [pywin32](https://github.com/mhammond/pywin32) untuk support Windows COM client.
-
-Terima kasih telah menggunakan Bosmudasky Simple GUI. Kami berharap aplikasi ini dapat membantu memudahkan pekerjaan Anda. Selamat berkarya dan teruslah berinovasi! 🚀
+Special thanks to all the contributors and the open-source community for their invaluable support and resources.
